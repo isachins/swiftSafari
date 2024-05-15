@@ -12,6 +12,9 @@
 		ADF4AEEE2BF533F600A9211B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEED2BF533F600A9211B /* ContentView.swift */; };
 		ADF4AEF02BF533F800A9211B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4AEEF2BF533F800A9211B /* Assets.xcassets */; };
 		ADF4AEF32BF533F800A9211B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4AEF22BF533F800A9211B /* Preview Assets.xcassets */; };
+		ADF4AEFB2BF53C9D00A9211B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEFA2BF53C9D00A9211B /* Home.swift */; };
+		ADF4AEFD2BF53CCC00A9211B /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEFC2BF53CCC00A9211B /* HomeModel.swift */; };
+		ADF4AEFF2BF5401400A9211B /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEFE2BF5401400A9211B /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		ADF4AEED2BF533F600A9211B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF4AEEF2BF533F800A9211B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF4AEF22BF533F800A9211B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADF4AEFA2BF53C9D00A9211B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		ADF4AEFC2BF53CCC00A9211B /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		ADF4AEFE2BF5401400A9211B /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		BCF09C319C43615CEFCCEBF4 /* Pods-swiftSafari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftSafari.release.xcconfig"; path = "Target Support Files/Pods-swiftSafari/Pods-swiftSafari.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +49,6 @@
 				4650AAF7C65E49DAF9CD21FD /* Pods-swiftSafari.debug.xcconfig */,
 				BCF09C319C43615CEFCCEBF4 /* Pods-swiftSafari.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -78,6 +83,7 @@
 			children = (
 				ADF4AEEB2BF533F600A9211B /* swiftSafariApp.swift */,
 				ADF4AEED2BF533F600A9211B /* ContentView.swift */,
+				ADF4AEF92BF53C8E00A9211B /* Home */,
 				ADF4AEEF2BF533F800A9211B /* Assets.xcassets */,
 				ADF4AEF12BF533F800A9211B /* Preview Content */,
 			);
@@ -90,6 +96,16 @@
 				ADF4AEF22BF533F800A9211B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADF4AEF92BF53C8E00A9211B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				ADF4AEFC2BF53CCC00A9211B /* HomeModel.swift */,
+				ADF4AEFA2BF53C9D00A9211B /* Home.swift */,
+				ADF4AEFE2BF5401400A9211B /* HomeVM.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +204,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADF4AEFD2BF53CCC00A9211B /* HomeModel.swift in Sources */,
+				ADF4AEFF2BF5401400A9211B /* HomeVM.swift in Sources */,
 				ADF4AEEE2BF533F600A9211B /* ContentView.swift in Sources */,
+				ADF4AEFB2BF53C9D00A9211B /* Home.swift in Sources */,
 				ADF4AEEC2BF533F600A9211B /* swiftSafariApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
