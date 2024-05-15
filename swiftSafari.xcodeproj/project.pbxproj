@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DDB9B204B3D1CC550A40ADA /* Pods_swiftSafari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F71414CFC143AACBC6ED2D5 /* Pods_swiftSafari.framework */; };
 		ADF4AEEC2BF533F600A9211B /* swiftSafariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEEB2BF533F600A9211B /* swiftSafariApp.swift */; };
 		ADF4AEEE2BF533F600A9211B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEED2BF533F600A9211B /* ContentView.swift */; };
 		ADF4AEF02BF533F800A9211B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4AEEF2BF533F800A9211B /* Assets.xcassets */; };
@@ -14,11 +15,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F71414CFC143AACBC6ED2D5 /* Pods_swiftSafari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftSafari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4650AAF7C65E49DAF9CD21FD /* Pods-swiftSafari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftSafari.debug.xcconfig"; path = "Target Support Files/Pods-swiftSafari/Pods-swiftSafari.debug.xcconfig"; sourceTree = "<group>"; };
 		ADF4AEE82BF533F600A9211B /* swiftSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF4AEEB2BF533F600A9211B /* swiftSafariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftSafariApp.swift; sourceTree = "<group>"; };
 		ADF4AEED2BF533F600A9211B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ADF4AEEF2BF533F800A9211B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF4AEF22BF533F800A9211B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCF09C319C43615CEFCCEBF4 /* Pods-swiftSafari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftSafari.release.xcconfig"; path = "Target Support Files/Pods-swiftSafari/Pods-swiftSafari.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +30,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DDB9B204B3D1CC550A40ADA /* Pods_swiftSafari.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06BB704C1EA6272722D86DD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4650AAF7C65E49DAF9CD21FD /* Pods-swiftSafari.debug.xcconfig */,
+				BCF09C319C43615CEFCCEBF4 /* Pods-swiftSafari.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6FE1CA818B47864A20E66E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F71414CFC143AACBC6ED2D5 /* Pods_swiftSafari.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ADF4AEDF2BF533F600A9211B = {
 			isa = PBXGroup;
 			children = (
 				ADF4AEEA2BF533F600A9211B /* swiftSafari */,
 				ADF4AEE92BF533F600A9211B /* Products */,
+				06BB704C1EA6272722D86DD3 /* Pods */,
+				6FE1CA818B47864A20E66E61 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ADF4AEF62BF533F800A9211B /* Build configuration list for PBXNativeTarget "swiftSafari" */;
 			buildPhases = (
+				916A58E653E3B182D2158680 /* [CP] Check Pods Manifest.lock */,
 				ADF4AEE42BF533F600A9211B /* Sources */,
 				ADF4AEE52BF533F600A9211B /* Frameworks */,
 				ADF4AEE62BF533F600A9211B /* Resources */,
@@ -131,6 +157,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		916A58E653E3B182D2158680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftSafari-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADF4AEE42BF533F600A9211B /* Sources */ = {
@@ -266,6 +317,7 @@
 		};
 		ADF4AEF72BF533F800A9211B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4650AAF7C65E49DAF9CD21FD /* Pods-swiftSafari.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +347,7 @@
 		};
 		ADF4AEF82BF533F800A9211B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF09C319C43615CEFCCEBF4 /* Pods-swiftSafari.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
