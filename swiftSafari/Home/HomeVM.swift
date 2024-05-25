@@ -13,14 +13,14 @@ class HomeVM: ObservableObject {
     
     init() {
         self.viewData = [
-            HomeModel(name: "View1", image: "book.pages", destinationView: "View1"),
+            HomeModel(name: "Pagination And JSON Parsing", image: "book.pages", destinationView: "PaginationHome"),
         ]
     }
     
     func getView(for viewName: String) -> AnyView {
         switch viewName {
-        case "View1":
-            return AnyView(View1())
+        case "PaginationHome":
+            return AnyView(PaginationHome())
         // Add cases for other views as needed
         default:
             return AnyView(EmptyView()) // Default empty view if view name not found

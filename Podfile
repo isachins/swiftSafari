@@ -8,5 +8,5 @@ target 'swiftSafari' do
   # Pods for swiftSafari
 
 
-
+  pod 'SDWebImageSwiftUI'
 end
