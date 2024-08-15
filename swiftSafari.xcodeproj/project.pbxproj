@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		7DDB9B204B3D1CC550A40ADA /* Pods_swiftSafari.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F71414CFC143AACBC6ED2D5 /* Pods_swiftSafari.framework */; };
+		AD48EF8E2C2EA38E00F02C8C /* MapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48EF8D2C2EA38E00F02C8C /* MapApp.swift */; };
+		AD48EFA32C2EF49800F02C8C /* AIChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48EFA22C2EF49800F02C8C /* AIChat.swift */; };
+		AD48EFA52C2EF4FC00F02C8C /* GeminiAPI.plist in Resources */ = {isa = PBXBuildFile; fileRef = AD48EFA42C2EF4FC00F02C8C /* GeminiAPI.plist */; };
+		AD9DE8A72C6E55FC009D4079 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DE8A62C6E55FC009D4079 /* Item.swift */; };
+		AD9DE8AB2C6E5AA2009D4079 /* ExpandableSearchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DE8AA2C6E5AA2009D4079 /* ExpandableSearchHomeView.swift */; };
+		AD9DE8AD2C6E7B01009D4079 /* ProgressiveBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DE8AC2C6E7B01009D4079 /* ProgressiveBlurView.swift */; };
 		ADCF92382BF76A6A001719B5 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF92372BF76A6A001719B5 /* TestView.swift */; };
 		ADD746CC2BF66EE700AFE86E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD746CA2BF66EE700AFE86E /* Photo.swift */; };
 		ADD746CF2BF66F1200AFE86E /* PaginationHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD746CE2BF66F1200AFE86E /* PaginationHome.swift */; };
+		ADE154CB2C3E57A700613295 /* callKitsImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE154CA2C3E57A700613295 /* callKitsImplement.swift */; };
 		ADF4AEEC2BF533F600A9211B /* swiftSafariApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEEB2BF533F600A9211B /* swiftSafariApp.swift */; };
 		ADF4AEEE2BF533F600A9211B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEED2BF533F600A9211B /* ContentView.swift */; };
 		ADF4AEF02BF533F800A9211B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF4AEEF2BF533F800A9211B /* Assets.xcassets */; };
@@ -20,12 +27,34 @@
 		ADF4AEFF2BF5401400A9211B /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF4AEFE2BF5401400A9211B /* HomeVM.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ADE915D02C3B05EF0011F38E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		0F71414CFC143AACBC6ED2D5 /* Pods_swiftSafari.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftSafari.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4650AAF7C65E49DAF9CD21FD /* Pods-swiftSafari.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftSafari.debug.xcconfig"; path = "Target Support Files/Pods-swiftSafari/Pods-swiftSafari.debug.xcconfig"; sourceTree = "<group>"; };
+		AD48EF8D2C2EA38E00F02C8C /* MapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapApp.swift; sourceTree = "<group>"; };
+		AD48EFA22C2EF49800F02C8C /* AIChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIChat.swift; sourceTree = "<group>"; };
+		AD48EFA42C2EF4FC00F02C8C /* GeminiAPI.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = GeminiAPI.plist; sourceTree = "<group>"; };
+		AD9DE8A62C6E55FC009D4079 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		AD9DE8AA2C6E5AA2009D4079 /* ExpandableSearchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableSearchHomeView.swift; sourceTree = "<group>"; };
+		AD9DE8AC2C6E7B01009D4079 /* ProgressiveBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressiveBlurView.swift; sourceTree = "<group>"; };
 		ADCF92372BF76A6A001719B5 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		ADD746CA2BF66EE700AFE86E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		ADD746CE2BF66F1200AFE86E /* PaginationHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationHome.swift; sourceTree = "<group>"; };
+		ADE154CA2C3E57A700613295 /* callKitsImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = callKitsImplement.swift; sourceTree = "<group>"; };
+		ADE915BA2C3B05ED0011F38E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		ADE915BC2C3B05ED0011F38E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		ADF4AEE82BF533F600A9211B /* swiftSafari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftSafari.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF4AEEB2BF533F600A9211B /* swiftSafariApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftSafariApp.swift; sourceTree = "<group>"; };
 		ADF4AEED2BF533F600A9211B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,8 +91,45 @@
 			isa = PBXGroup;
 			children = (
 				0F71414CFC143AACBC6ED2D5 /* Pods_swiftSafari.framework */,
+				ADE915BA2C3B05ED0011F38E /* WidgetKit.framework */,
+				ADE915BC2C3B05ED0011F38E /* SwiftUI.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD48EF8C2C2EA32D00F02C8C /* MapKit */ = {
+			isa = PBXGroup;
+			children = (
+				AD48EF8D2C2EA38E00F02C8C /* MapApp.swift */,
+			);
+			path = MapKit;
+			sourceTree = "<group>";
+		};
+		AD48EFA12C2EF47B00F02C8C /* ChatWithGemini */ = {
+			isa = PBXGroup;
+			children = (
+				AD48EFA22C2EF49800F02C8C /* AIChat.swift */,
+				AD48EFA42C2EF4FC00F02C8C /* GeminiAPI.plist */,
+			);
+			path = ChatWithGemini;
+			sourceTree = "<group>";
+		};
+		AD9DE8A42C6E55A3009D4079 /* ExpandableSearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DE8A52C6E55BA009D4079 /* Model */,
+				AD9DE8AA2C6E5AA2009D4079 /* ExpandableSearchHomeView.swift */,
+				AD9DE8AC2C6E7B01009D4079 /* ProgressiveBlurView.swift */,
+			);
+			path = ExpandableSearchBar;
+			sourceTree = "<group>";
+		};
+		AD9DE8A52C6E55BA009D4079 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DE8A62C6E55FC009D4079 /* Item.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		ADD746C52BF66E2000AFE86E /* Features */ = {
@@ -121,12 +187,16 @@
 		ADF4AEEA2BF533F600A9211B /* swiftSafari */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DE8A42C6E55A3009D4079 /* ExpandableSearchBar */,
 				ADF4AEF12BF533F800A9211B /* Preview Content */,
 				ADF4AEEB2BF533F600A9211B /* swiftSafariApp.swift */,
 				ADF4AEED2BF533F600A9211B /* ContentView.swift */,
 				ADCF92372BF76A6A001719B5 /* TestView.swift */,
 				ADF4AEF92BF53C8E00A9211B /* Home */,
 				ADD746C52BF66E2000AFE86E /* Features */,
+				AD48EF8C2C2EA32D00F02C8C /* MapKit */,
+				AD48EFA12C2EF47B00F02C8C /* ChatWithGemini */,
+				ADE154CA2C3E57A700613295 /* callKitsImplement.swift */,
 			);
 			path = swiftSafari;
 			sourceTree = "<group>";
@@ -161,6 +231,7 @@
 				ADF4AEE52BF533F600A9211B /* Frameworks */,
 				ADF4AEE62BF533F600A9211B /* Resources */,
 				8B944EC04EDA930384119D81 /* [CP] Embed Pods Frameworks */,
+				ADE915D02C3B05EF0011F38E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -178,7 +249,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					ADF4AEE72BF533F600A9211B = {
@@ -210,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF4AEF32BF533F800A9211B /* Preview Assets.xcassets in Resources */,
+				AD48EFA52C2EF4FC00F02C8C /* GeminiAPI.plist in Resources */,
 				ADF4AEF02BF533F800A9211B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,9 +336,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADD746CC2BF66EE700AFE86E /* Photo.swift in Sources */,
+				AD9DE8AD2C6E7B01009D4079 /* ProgressiveBlurView.swift in Sources */,
+				AD48EFA32C2EF49800F02C8C /* AIChat.swift in Sources */,
 				ADF4AEFD2BF53CCC00A9211B /* HomeModel.swift in Sources */,
 				ADF4AEFF2BF5401400A9211B /* HomeVM.swift in Sources */,
+				AD9DE8AB2C6E5AA2009D4079 /* ExpandableSearchHomeView.swift in Sources */,
+				AD9DE8A72C6E55FC009D4079 /* Item.swift in Sources */,
 				ADF4AEEE2BF533F600A9211B /* ContentView.swift in Sources */,
+				ADE154CB2C3E57A700613295 /* callKitsImplement.swift in Sources */,
+				AD48EF8E2C2EA38E00F02C8C /* MapApp.swift in Sources */,
 				ADCF92382BF76A6A001719B5 /* TestView.swift in Sources */,
 				ADD746CF2BF66F1200AFE86E /* PaginationHome.swift in Sources */,
 				ADF4AEFB2BF53C9D00A9211B /* Home.swift in Sources */,
@@ -329,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -386,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -405,7 +483,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftSafari/Preview Content\"";
-				DEVELOPMENT_TEAM = M55L7NG694;
+				DEVELOPMENT_TEAM = 7H4NGQRVS9;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -414,6 +492,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -436,7 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftSafari/Preview Content\"";
-				DEVELOPMENT_TEAM = M55L7NG694;
+				DEVELOPMENT_TEAM = 7H4NGQRVS9;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -445,6 +524,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

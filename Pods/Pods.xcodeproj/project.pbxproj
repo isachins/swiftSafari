@@ -126,6 +126,7 @@
 		A8A9DA6C580EAE3E50B590CEDF0A45CC /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7EE4C0BD2FC4F39CEA4383A1F295A2 /* UIImageView+HighlightedWebCache.m */; };
 		AC32A22FA700A7C519DA105353C169C9 /* SDImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = D3666A24ABED91F7273525926AD66299 /* SDImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACD7FED5646A645F3EDA3F2521156451 /* SDWebImageOptionsProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 64002FF0D23A93237984C6188FA59A32 /* SDWebImageOptionsProcessor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD48EFA82C2EF5B400F02C8C /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = AD48EFA72C2EF5B400F02C8C /* GoogleGenerativeAI */; };
 		ADDD26B99A6D54C00956C6BE7349D77E /* SDImageCacheDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 779330196F08349C6C395246D6565778 /* SDImageCacheDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE7A9D612B96E5CADA59EFE4591DDB83 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = EFE2DD7032D6122137C9461A676E64CE /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEAA0FB549FD88F595F943D8CD4317DF /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FEDF390ED4EF47A5CAB6CBD29C2148D /* SDWebImagePrefetcher.m */; };
@@ -338,7 +339,7 @@
 		9FA74D91D673A112ED91000838CD2973 /* SDImageCachesManagerOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCachesManagerOperation.m; path = SDWebImage/Private/SDImageCachesManagerOperation.m; sourceTree = "<group>"; };
 		9FEF82DD3A3761F282D03C7006421A6E /* SDWebImageCacheKeyFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCacheKeyFilter.h; path = SDWebImage/Core/SDWebImageCacheKeyFilter.h; sourceTree = "<group>"; };
 		A1300CDCA86C87470D33AD3202486EC3 /* SDWebImageOptionsProcessor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageOptionsProcessor.m; path = SDWebImage/Core/SDWebImageOptionsProcessor.m; sourceTree = "<group>"; };
-		A198B8B70AA0E7A12910EA55A5041F9E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = PrivacyInfo.xcprivacy; path = WebImage/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A198B8B70AA0E7A12910EA55A5041F9E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = WebImage/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A37742F79E514FAFFD446EB7AB875115 /* Pods-swiftSafari.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-swiftSafari.release.xcconfig"; sourceTree = "<group>"; };
 		A498F96099671276C0183BCC36869555 /* SDAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SDAnimatedImageView+WebCache.m"; path = "SDWebImage/Core/SDAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
 		A560CB3FF713114E3DB572A3D4F50B6E /* SDWebImageSwiftUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageSwiftUI.h; path = SDWebImageSwiftUI/Module/SDWebImageSwiftUI.h; sourceTree = "<group>"; };
@@ -390,7 +391,7 @@
 		E1B9DEA49ABE2D253869AA16A8564FD6 /* NSImage+Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+Compatibility.h"; path = "SDWebImage/Core/NSImage+Compatibility.h"; sourceTree = "<group>"; };
 		E474A62BCA7F2FFFAE9066AD4C6F79D7 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/Core/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		E4A7F6A65B7575E34B948E97BBC0DE95 /* SDAnimatedImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDAnimatedImageView.h; path = SDWebImage/Core/SDAnimatedImageView.h; sourceTree = "<group>"; };
-		E62565571F3C8230946A8C370E6ABD56 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = PrivacyInfo.xcprivacy; path = SDWebImageSwiftUI/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E62565571F3C8230946A8C370E6ABD56 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = SDWebImageSwiftUI/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		E774B32DC111E834147E564A30D2142E /* SDAssociatedObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDAssociatedObject.m; path = SDWebImage/Private/SDAssociatedObject.m; sourceTree = "<group>"; };
 		E83EE6DC216EF33117FB38486721B6E9 /* SDImageIOAnimatedCoderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageIOAnimatedCoderInternal.h; path = SDWebImage/Private/SDImageIOAnimatedCoderInternal.h; sourceTree = "<group>"; };
 		EA48DD58362B0C90DA81939D487AE26E /* SDWebImageIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageIndicator.h; path = SDWebImage/Core/SDWebImageIndicator.h; sourceTree = "<group>"; };
@@ -428,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5068C44F016D909D97A1831EF1CDB7C /* Foundation.framework in Frameworks */,
+				AD48EFA82C2EF5B400F02C8C /* GoogleGenerativeAI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,6 +945,9 @@
 				783079572B6ECFC52B3C49631E74C609 /* PBXTargetDependency */,
 			);
 			name = "Pods-swiftSafari";
+			packageProductDependencies = (
+				AD48EFA72C2EF5B400F02C8C /* GoogleGenerativeAI */,
+			);
 			productName = Pods_swiftSafari;
 			productReference = 43080B54D0634665F496ACE40E856023 /* Pods_swiftSafari.framework */;
 			productType = "com.apple.product-type.framework";
@@ -982,6 +987,9 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			packageReferences = (
+				AD48EFA62C2EF5B400F02C8C /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+			);
 			productRefGroup = 4A0194FF299652D9B292889D8F3D6DC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1662,6 +1670,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD48EFA62C2EF5B400F02C8C /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD48EFA72C2EF5B400F02C8C /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD48EFA62C2EF5B400F02C8C /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
