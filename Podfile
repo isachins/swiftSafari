@@ -9,4 +9,6 @@ target 'swiftSafari' do
 
 
   pod 'SDWebImageSwiftUI'
+  pod 'SwiftLint'
+  
 end
